@@ -1,0 +1,7 @@
+C:\Users\elev\Google Drive\_Skola\_Github Prog1  Webb2\Programering 1\Utmaningar\Simple Kalkylator\SimpleKalkylator_Solution\SimpleKalkylator\bin\Debug\SimpleKalkylator.exe.config
+C:\Users\elev\Google Drive\_Skola\_Github Prog1  Webb2\Programering 1\Utmaningar\Simple Kalkylator\SimpleKalkylator_Solution\SimpleKalkylator\bin\Debug\SimpleKalkylator.exe
+C:\Users\elev\Google Drive\_Skola\_Github Prog1  Webb2\Programering 1\Utmaningar\Simple Kalkylator\SimpleKalkylator_Solution\SimpleKalkylator\bin\Debug\SimpleKalkylator.pdb
+C:\Users\elev\Google Drive\_Skola\_Github Prog1  Webb2\Programering 1\Utmaningar\Simple Kalkylator\SimpleKalkylator_Solution\SimpleKalkylator\obj\Debug\SimpleKalkylator.csprojResolveAssemblyReference.cache
+C:\Users\elev\Google Drive\_Skola\_Github Prog1  Webb2\Programering 1\Utmaningar\Simple Kalkylator\SimpleKalkylator_Solution\SimpleKalkylator\obj\Debug\SimpleKalkylator.csproj.CoreCompileInputs.cache
+C:\Users\elev\Google Drive\_Skola\_Github Prog1  Webb2\Programering 1\Utmaningar\Simple Kalkylator\SimpleKalkylator_Solution\SimpleKalkylator\obj\Debug\SimpleKalkylator.exe
+C:\Users\elev\Google Drive\_Skola\_Github Prog1  Webb2\Programering 1\Utmaningar\Simple Kalkylator\SimpleKalkylator_Solution\SimpleKalkylator\obj\Debug\SimpleKalkylator.pdb
