@@ -1,0 +1,7 @@
+C:\Users\elev\Google Drive\_Skola\_Github Prog1  Webb2\Programering 1\Prog1-Utmaningar\MultiplikationsTabel\MultiplikationsTabel\obj\Debug\MultiplikationsTabel.csprojResolveAssemblyReference.cache
+C:\Users\elev\Google Drive\_Skola\_Github Prog1  Webb2\Programering 1\Prog1-Utmaningar\MultiplikationsTabel\MultiplikationsTabel\obj\Debug\MultiplikationsTabel.csproj.CoreCompileInputs.cache
+C:\Users\elev\Google Drive\_Skola\_Github Prog1  Webb2\Programering 1\Prog1-Utmaningar\MultiplikationsTabel\MultiplikationsTabel\bin\Debug\MultiplikationsTabel.exe.config
+C:\Users\elev\Google Drive\_Skola\_Github Prog1  Webb2\Programering 1\Prog1-Utmaningar\MultiplikationsTabel\MultiplikationsTabel\bin\Debug\MultiplikationsTabel.exe
+C:\Users\elev\Google Drive\_Skola\_Github Prog1  Webb2\Programering 1\Prog1-Utmaningar\MultiplikationsTabel\MultiplikationsTabel\bin\Debug\MultiplikationsTabel.pdb
+C:\Users\elev\Google Drive\_Skola\_Github Prog1  Webb2\Programering 1\Prog1-Utmaningar\MultiplikationsTabel\MultiplikationsTabel\obj\Debug\MultiplikationsTabel.exe
+C:\Users\elev\Google Drive\_Skola\_Github Prog1  Webb2\Programering 1\Prog1-Utmaningar\MultiplikationsTabel\MultiplikationsTabel\obj\Debug\MultiplikationsTabel.pdb
