@@ -10,20 +10,26 @@ namespace Talpyramid
     {
         static void Main(string[] args)
         {
+            Console.Write("Skriv ett tal: ");
             int userNumInput = UserInput(Console.ReadLine());
+            Console.WriteLine();
 
+            //För första loppen är för varje ny linje.
             for (int i = 0; i < userNumInput; i++)
             {
-                for (int j = 0; j < i; j++)
+                //Denna loop är för att generara rätt mängd utav ett nummer för just denna linje.
+                for (int j = 0; j < i + 1; j++)
                 {
+                    //Använder Write istället för writeline för att få numrena att hamna på samma rad.
                     Console.Write(userNumInput);
-
                 }
+                //Använde CW för att gå ner till nästa rad.
                 Console.WriteLine();
             }
             Console.ReadLine();
         }
 
+        //Ser till så att användare bara kan ange ett giltigt input.
         static int UserInput(string _userInput)
         {
             int userInput = 0;
