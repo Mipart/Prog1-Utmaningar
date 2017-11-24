@@ -1,5 +1,0 @@
-First name : SS
-Last name : SS
-Age : SS
-Sex : SS
-
