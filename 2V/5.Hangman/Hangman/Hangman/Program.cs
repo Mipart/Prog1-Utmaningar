@@ -16,6 +16,7 @@ namespace Hangman
             UserWordSetup(userWord);    //Anropar metoden UserWordSetup, den gör bara så att variabeln userWord får blanklines för alla platser i arrayen.
 
             inGame = true;  //En kontroll variabel, när spelaren får GameOver så ska den slås av.
+            bool win = false; //Kontroll variabel, om man har vunnit eller inte
             int lives = 5;  //Antalet liv som spelaren har
             while (inGame)  //Loopar igenom nedanstående kod så länge inGame är sant.
             {
@@ -30,15 +31,39 @@ namespace Hangman
                 if (!CheckIfAlphIsInWord(alph, goalWord, userWord)) //CheckIfAlphIsInWord returnerar en bool, om bokstaven finns i ordet så returenerar den true. Finns inte bokstaven i ordet så försvinner ett liv
                     lives--; //Ett liv tas bort
 
+                if (CheckIfWon(userWord))
+                {
+                    inGame = false;
+                    win = true;
+                }
+
                 if (lives <= 0) //kollar ifall att antalet liv är lika med eller under noll, om så är spelet över => while loopen bryts och spelet är slut.
                     inGame = false;
             }
 
             //Game Over
             Console.Clear(); //Ränsar consol fönstret
-            Console.WriteLine("----Hangman---- \nGameOver"); //Skriver ut en text
+            if (!win) //Kollar ifall att man har förlorat
+            {
+                Console.WriteLine("----Hangman---- \nGameOver"); //Skriver ut en text
+            }
+            else //Om man har vunnit
+            {
+                Console.WriteLine("Winner!"); // Skriver ut en text
+            }
+
             Console.ReadLine(); //Failsafe så att inte programet stänger ner sig själv direkt (Så att det inte ska likna en crash)
 
+        }
+
+        static bool CheckIfWon(char[] userWord)
+        {
+            foreach (char item in userWord) //Iterarar igenom userWord, om en blankLine finns kvar så har man inte klarat av spelet.
+            {
+                if (item == '_') //Kollar ifall att '_' finns med i arrayen
+                    return false; //Omså returnera false
+            }
+            return true; //Anars returnera true
         }
 
         static bool CheckIfAlphIsInWord(char input,char[] goal,char[] user)
